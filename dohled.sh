@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cas= date +%T
-echo "Aktuální čas"$cas
+cas=`date +%T`
+echo "Aktuální čas:"$cas
 ip=`ifconfig | grep Všesměr | awk -F ":" '{printf$2}' | awk -F " " '{print $1}'`
 echo "Moje ip:" $ip
 
