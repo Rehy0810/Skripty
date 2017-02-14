@@ -1,0 +1,5 @@
+#!/bin/bash
+text="Dobrý:den:zdraví:Vás:Pepa:Novák"
+echo $text | awk -F ":" '{print $2echo $text | awk -F ":" '{print $2}'
+}'
+
